@@ -1,0 +1,71 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== Secrets / 配置（含 API key）=====
+.claude/
+.env
+.env.*
+*.env
+
+# ===== 工作产物 / 中间数据 =====
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.webm
+
+# ===== 探索/调试用临时脚本（非产品代码）=====
+**/_check*.mjs
+**/_inspect*.mjs
+**/_clash_diag.mjs
+**/_clash_switch*.mjs
+**/_oauth*.mjs
+**/_force_reload.mjs
+**/_pipe*.mjs
+**/_state*.png
+**/_step_check.mjs
+**/_step_resume.mjs
+**/_step_spn*.mjs
+**/_step_w33*.mjs
+**/_step_3*.mjs
+**/_download_first_video.mjs
+**/_download_uuid.mjs
+**/_download_w33.mjs
+**/_screenshot.mjs
+**/test_named_pipe.mjs
+**/test_right_click.mjs
+**/flow_addmedia_probe.mjs
+**/flow_gen_endpoint_probe.mjs
+**/flow_single_with_recovery.mjs
+**/flow_upload_network_probe.mjs
+**/flow_veo_pick_existing_probe.mjs
+**/flow_veo_picker_probe.mjs
+**/flow_veo_upload_probe.mjs
+**/probe_models.mjs
+
+# ===== 临时工作目录 =====
+**/_swap_*/
+
+# ===== 业务/敏感内容（特定 prompt）=====
+**/prompts.json
+**/veo_prompts*.json
+**/dwarf_prompt.txt
+**/seed_reference*.png
+
+# ===== 运行时缓存 =====
+_ws.txt
+recovery_log.jsonl
+network_log.json
+*.transcript.json
+*.transcript.txt
+*.bak
+
+# ===== package-lock 可选保留，这里包含 =====
+# package-lock.json   # 默认包含
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
