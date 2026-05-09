@@ -1,0 +1,6 @@
+{
+  "api_url": "https://api.aisever.cn/v1/audio/transcriptions",
+  "api_key": "sk-在这里填你的key",
+  "model": "gpt-4o-transcribe",
+  "language": "ur"
+}
